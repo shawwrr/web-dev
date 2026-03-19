@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess the Movie</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <h1>Guess the Movie</h1>
+      <p>Type the name of the movie that is stuck in my head. Can you crack it?</p>
+    </header>
+
+    <section class="game-card">
+      <h2>Start guessing</h2>
+
+      <div class="input-row">
+        <input id="guessInput" type="text" placeholder="Enter movie title..." autocomplete="off" />
+        <button id="guessBtn" type="button">Go</button>
+      </div>
+
+      <div id="message" class="message">
+        Try a Bollywood blockbuster or Hollywood favorite — then press Go.
+      </div>
+
+      <div class="hint">
+        Tip: The answer is a famous Bollywood movie from the 2000s.
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="poster-card">
+        <img src="om shanti om.jpg" alt="Om Shanti Om poster" />
+        <div class="meta">
+          <h3>Om Shanti Om</h3>
+          <p>Bollywood fantasy drama (2007)</p>
+        </div>
+      </div>
+
+      <div class="poster-card">
+        <img src="dangal.jpg" alt="Dangal poster" />
+        <div class="meta">
+          <h3>Dangal</h3>
+          <p>Bollywood sports drama (2016)</p>
+        </div>
+      </div>
+
+      <div class="poster-card">
+        <img src="https://image.tmdb.org/t/p/w500/8tNX8s3j1O0eqilOQkuroRLyOZA.jpg" alt="Inception poster" />
+        <div class="meta">
+          <h3>Inception</h3>
+          <p>Hollywood sci‑fi thriller (2010)</p>
+        </div>
+      </div>
+
+      <div class="poster-card">
+        <img src="https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg" alt="Guardians of the Galaxy poster" />
+        <div class="meta">
+          <h3>Guardians of the Galaxy</h3>
+          <p>Hollywood action comedy (2014)</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Made with 💛 for Bollywood + Hollywood fans. Try typing "quit" to restart.
+    </footer>
+  </div>
+
+  <script src="movie.js"></script>
+</body>
+</html>
